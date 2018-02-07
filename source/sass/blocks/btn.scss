@@ -1,0 +1,51 @@
+.btn {
+  display: block;
+  color: white;
+  border: 2px solid white;
+  width: 280px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 26px auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: $tablet-width) {
+  .btn {
+    width: 300px;
+  }
+
+  .btn--green {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .btn {
+    font-size: 21px;
+  }
+}
+
+.btn--green {
+  background-color: #2aab6d;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.btn--green:hover {
+  background-color: #1c9b5e;
+  color: #9ecdb3;
+}
+
+.btn--green:active {
+  color: #7abc98;
+}
+
+.btn--green:disabled {
+  opacity: 0.3;
+}
