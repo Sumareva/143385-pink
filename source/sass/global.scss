@@ -1,0 +1,25 @@
+body {
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #283645;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  text-align: center;
+  background-color: #283645;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  display: none;
+}

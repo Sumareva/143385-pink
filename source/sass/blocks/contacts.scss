@@ -1,0 +1,44 @@
+.contact__title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.contact p {
+  color: $pink;
+  font-size: 24px;
+  font-weight: light;
+  line-height: normal;
+}
+
+@media (min-width: $tablet-width) {
+  .contact {
+    margin: 0 auto;
+
+    &:last-child {
+      width: 230px;
+    }
+  }
+
+  .contact__title {
+    margin-bottom: 0;
+  }
+
+  .contact p {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contact:first-child {
+    order: 1;
+  }
+
+  .contact:nth-child(2) {
+    order: 3;
+  }
+
+  .contact:last-child {
+    order: 2;
+  }
+}
