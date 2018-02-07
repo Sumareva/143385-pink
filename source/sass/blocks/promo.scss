@@ -3,7 +3,7 @@
   width: auto;
   height: 732px;
   padding-bottom: 271px;
-  background: url(../img/bg-back-mobile@1x.jpg) center top no-repeat;
+  background: url("../img/bg-back-mobile@1x.jpg") center top no-repeat;
   background-size: auto 461px;
   background-color: #1d2631;
   box-sizing: border-box;
@@ -13,7 +13,7 @@
   width: auto;
   padding: 0 6.25%;
   height: 100%;
-  background: url(../img/iphone-hand-mobile@1x.png) left bottom no-repeat;
+  background: url("../img/iphone-hand-mobile@1x.png") left bottom no-repeat;
   background-size: 258px;
   box-sizing: border-box;
 }
@@ -70,7 +70,7 @@
   min-height: 236px;
   padding-top: 79px;
   padding-bottom: 38px;
-  background: url(../img/bg-back-mobile@1x.jpg) center top no-repeat;
+  background: url("../img/bg-back-mobile@1x.jpg") center top no-repeat;
   background-size: auto 467px;
   background-position-y: -5px;
   background-color: #1d2631;
@@ -81,7 +81,7 @@
     height: auto;
     padding-top: 0;
     padding-bottom: 0;
-    background: url(../img/bg-back-tablet@1x.jpg) center top no-repeat;
+    background: url("../img/bg-back-tablet@1x.jpg") center top no-repeat;
   }
 
   .promo__wrapper {
@@ -89,14 +89,14 @@
     margin: 0 auto;
     height: auto;
     padding: 201px 0 93px 20px;
-    background: url(../img/iphone-hand-tablet@1x.png) 50% bottom no-repeat;
+    background: url("../img/iphone-hand-tablet@1x.png") 50% bottom no-repeat;
   }
 
   .promo--index {
     height: auto;
     padding-top: 0;
     padding-bottom: 0;
-    background: url(../img/bg-back-tablet@1x.jpg) center top no-repeat;
+    background: url("../img/bg-back-tablet@1x.jpg") center top no-repeat;
   }
 
   .promo__container {
@@ -120,7 +120,7 @@
     min-height: 438px;
     padding-top: 144px;
     padding-bottom: 47px;
-    background: url(../img/bg-back-tablet@1x.jpg) center top no-repeat;
+    background: url("../img/bg-back-tablet@1x.jpg") center top no-repeat;
     background-size: auto 727px;
   }
 
@@ -133,20 +133,20 @@
   .promo {
     padding-top: 0;
     padding-bottom: 0;
-    background: url(../img/bg-back-desktop@1x.jpg) center top no-repeat;
+    background: url("../img/bg-back-desktop@1x.jpg") center top no-repeat;
   }
 
   .promo__wrapper {
     width: 940px;
     padding-top: 218px;
     padding-bottom: 86px;
-    background: url(../img/iphone-hand-desktop@1x.png) -15% bottom no-repeat;
+    background: url("../img/iphone-hand-desktop@1x.png") -15% bottom no-repeat;
   }
 
   .promo--index {
     padding-top: 0;
     padding-bottom: 0;
-    background: url(../img/bg-back-desktop@1x.jpg) center top no-repeat;
+    background: url("../img/bg-back-desktop@1x.jpg") center top no-repeat;
   }
 
   .promo__title {
@@ -164,7 +164,7 @@
     min-height: auto;
     padding-top: 139px;
     padding-bottom: 68px;
-    background: url(../img/bg-back-desktop@1x.jpg) center top no-repeat;
+    background: url("../img/bg-back-desktop@1x.jpg") center top no-repeat;
   }
 
   .promo--inner .promo__title {
