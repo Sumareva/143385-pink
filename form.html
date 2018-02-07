@@ -35,128 +35,131 @@
         </nav>
       </div>
     </header>
-    <div class="promo promo--inner">
-      <div class="promo__title promo__title--inner"><span>Конкурс на самое безбашенное путешествие с Пинк</span>
-      </div>
-    </div>
-    <div class="contest">
-      <div class="contest__promo">
-        <p>Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!
-        <span class="contest__promo--hidden">Пожалуйста, заполните форму ниже:</span></p>
-      </div>
-      <form action="https://echo.htmlacademy.ru" class="contest__form" method="post">
-        <fieldset class="fio contest__fieldset ">
-          <div class="fio__item">
-            <span>
-              <label for="last-name">Фамилия:</label>
-              <input type="text" id="last-name" name="last-name" placeholder="Укажите фамилию*" class="contest__field" required>
-            </span>
-          </div>
-          <div class="fio__item">
-            <span>
-              <label for="first-name">Имя:</label>
-              <input type="text" id="first-name" name="first-name" placeholder="Введите ваше имя*" class="contest__field" required>
-            </span>
-          </div>
-          <div class="fio__item">
-            <span>
-              <label for="middle-name">Отчество:</label>
-              <input type="text" id="middle-name" name="middle-name" placeholder="Ну и отчество тоже" class="contest__field">
-            </span>
-          </div>
-        </fieldset>
-        <div class="contest__fieldset contest__fieldset--system-choice">
-          <fieldset class="system-choice">
-            <legend class="contest__title">С каким приложением путешествовали?</legend>
-            <div class="system-choice__item">
-              <input type="radio" name="for-system" value="for-ios" id="for-ios" checked>
-              <label for="for-ios">Pink для iOS</label>
+    <main>
+      <section class="promo promo--inner">
+        <h1 class="promo__title promo__title--inner"><span>Конкурс на самое безбашенное путешествие с Пинк</span>
+        </h1>
+      </section>
+      <section class="contest">
+        <h2 class="visually-hidden"></h2>
+        <div class="contest__promo">
+          <p>Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!
+          <span class="contest__promo--hidden">Пожалуйста, заполните форму ниже:</span></p>
+        </div>
+        <form action="https://echo.htmlacademy.ru" class="contest__form" method="post">
+          <fieldset class="fio contest__fieldset ">
+            <div class="fio__item">
+              <span>
+                <label for="last-name">Фамилия:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Укажите фамилию*" class="contest__field" required>
+              </span>
             </div>
-            <div class="system-choice__item">
-              <input type="radio" name="for-system" value="for-android" id="for-android">
-              <label for="for-android">Pink на Android</label>
+            <div class="fio__item">
+              <span>
+                <label for="first-name">Имя:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Введите ваше имя*" class="contest__field" required>
+              </span>
             </div>
-            <div class="system-choice__item">
-              <input type="radio" name="for-system" value="for-windows" id="for-windows">
-              <label for="for-windows">Windows Phone</label>
+            <div class="fio__item">
+              <span>
+                <label for="middle-name">Отчество:</label>
+                <input type="text" id="middle-name" name="middle-name" placeholder="Ну и отчество тоже" class="contest__field">
+              </span>
             </div>
           </fieldset>
-        </div>
-        <fieldset class="form-contacts contest__fieldset">
-          <legend class="contest__title">Контактная информация</legend>
-          <div class="form-contacts__wrapper">
-            <div class="form-contacts__item">
-              <label for="tel">Номер телефона</label><br>
-              <input type="tel" id="tel" name="tel" placeholder="Номер, пожалуйста" class="contest__field">
-            </div>
-            <div class="form-contacts__item">
-              <label for="email">Адрес почты</label><br>
-              <input type="email" id="email" name="email" placeholder="Введите почту*" class="contest__field" required>
-            </div>
+          <div class="contest__fieldset contest__fieldset--system-choice">
+            <fieldset class="system-choice">
+              <legend class="contest__title">С каким приложением путешествовали?</legend>
+              <div class="system-choice__item">
+                <input type="radio" name="for-system" value="for-ios" id="for-ios" checked>
+                <label for="for-ios">Pink для iOS</label>
+              </div>
+              <div class="system-choice__item">
+                <input type="radio" name="for-system" value="for-android" id="for-android">
+                <label for="for-android">Pink на Android</label>
+              </div>
+              <div class="system-choice__item">
+                <input type="radio" name="for-system" value="for-windows" id="for-windows">
+                <label for="for-windows">Windows Phone</label>
+              </div>
+            </fieldset>
           </div>
-        </fieldset>
-        <div class="contest__fieldset contest__fieldset--achievments">
-          <fieldset class="achievments">
-            <legend class="contest__title">Ваши безбашенные достижения в путешествии</legend>
-            <div class="achievments__wrapper">
-              <div class="achievments__item">
-                <input type="checkbox" id="achiev-selfy" name="achiev-selfy" class="achievments__checkbox" checked>
-                <label for="achiev-selfy" class="achievments__label">
-                  <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
-                  Сделал селфи с акулой
-                </label>
+          <fieldset class="form-contacts contest__fieldset">
+            <legend class="contest__title">Контактная информация</legend>
+            <div class="form-contacts__wrapper">
+              <div class="form-contacts__item">
+                <label for="tel">Номер телефона</label><br>
+                <input type="tel" id="tel" name="tel" placeholder="Номер, пожалуйста" class="contest__field">
               </div>
-              <div class="achievments__item">
-                <input type="checkbox" id="achiev-beach" name="achiev-beach" class="achievments__checkbox" checked>
-                <label for="achiev-beach" class="achievments__label">
-                  <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
-                  Обгорел на пляже
-                </label>
-              </div>
-              <div class="achievments__item">
-                <input type="checkbox" id="achiev-chuck" name="achiev-chuck" class="achievments__checkbox">
-                <label for="achiev-chuck" class="achievments__label">
-                  <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
-                  Видел Чака Норриса
-                </label>
-              </div>
-              <div class="achievments__item">
-                <input type="checkbox" id="achiev-gifts" name="achiev-gifts" class="achievments__checkbox">
-                <label for="achiev-gifts" class="achievments__label">
-                  <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
-                  Накупил сувениров
-                </label>
-              </div>
-              <div class="achievments__item">
-                <input type="checkbox" id="achiev-tower" name="achiev-tower" class="achievments__checkbox" checked>
-                <label for="achiev-tower" class="achievments__label">
-                  <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
-                  Удержал башню
-                </label>
-              </div>
-              <div class="achievments__item">
-                <input type="checkbox" id="achiev-hotel" name="achiev-hotel" class="achievments__checkbox">
-                <label for="achiev-hotel" class="achievments__label">
-                  <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
-                  Разгромил отель
-                </label>
+              <div class="form-contacts__item">
+                <label for="email">Адрес почты</label><br>
+                <input type="email" id="email" name="email" placeholder="Введите почту*" class="contest__field" required>
               </div>
             </div>
           </fieldset>
-        </div>
-        <fieldset class="review-message contest__fieldset">
-          <legend class="contest__title">
-            <label for="message-text" >Опишите свои эмоции</label>
-          </legend>
-          <textarea id="message-text" name="message-text" rows="5" class="contest__field">Можно прям в красках, не стесняясь в выражениях
-          </textarea>
-        </fieldset>
-        <div class="contest__submit contest__fieldset">
-          <input type="submit" class="btn  btn--green" value="Отправить форму">
-          <p><span class="submit__pink">*</span>-обязательные <span class="submit__hidden">для заполнения </span>поля</p>
-        </div>
-      </form>
-    </div>
+          <div class="contest__fieldset contest__fieldset--achievments">
+            <fieldset class="achievments">
+              <legend class="contest__title">Ваши безбашенные достижения в путешествии</legend>
+              <div class="achievments__wrapper">
+                <div class="achievments__item">
+                  <input type="checkbox" id="achiev-selfy" name="achiev-selfy" class="achievments__checkbox" checked>
+                  <label for="achiev-selfy" class="achievments__label">
+                    <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
+                    Сделал селфи с акулой
+                  </label>
+                </div>
+                <div class="achievments__item">
+                  <input type="checkbox" id="achiev-beach" name="achiev-beach" class="achievments__checkbox" checked>
+                  <label for="achiev-beach" class="achievments__label">
+                    <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
+                    Обгорел на пляже
+                  </label>
+                </div>
+                <div class="achievments__item">
+                  <input type="checkbox" id="achiev-chuck" name="achiev-chuck" class="achievments__checkbox">
+                  <label for="achiev-chuck" class="achievments__label">
+                    <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
+                    Видел Чака Норриса
+                  </label>
+                </div>
+                <div class="achievments__item">
+                  <input type="checkbox" id="achiev-gifts" name="achiev-gifts" class="achievments__checkbox">
+                  <label for="achiev-gifts" class="achievments__label">
+                    <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
+                    Накупил сувениров
+                  </label>
+                </div>
+                <div class="achievments__item">
+                  <input type="checkbox" id="achiev-tower" name="achiev-tower" class="achievments__checkbox" checked>
+                  <label for="achiev-tower" class="achievments__label">
+                    <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
+                    Удержал башню
+                  </label>
+                </div>
+                <div class="achievments__item">
+                  <input type="checkbox" id="achiev-hotel" name="achiev-hotel" class="achievments__checkbox">
+                  <label for="achiev-hotel" class="achievments__label">
+                    <img class="icon icon-allowed" src="source/img/icon-yes.svg" alt="yes">
+                    Разгромил отель
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <fieldset class="review-message contest__fieldset">
+            <legend class="contest__title">
+              <label for="message-text" >Опишите свои эмоции</label>
+            </legend>
+            <textarea id="message-text" name="message-text" rows="5" class="contest__field">Можно прям в красках, не стесняясь в выражениях
+            </textarea>
+          </fieldset>
+          <div class="contest__submit contest__fieldset">
+            <input type="submit" class="btn  btn--green" value="Отправить форму">
+            <p><span class="submit__pink">*</span>-обязательные <span class="submit__hidden">для заполнения </span>поля</p>
+          </div>
+        </form>
+      </section>
+    </main>
     <footer class="page-footer">
       <div class="page-footer__wrapper page-footer__wrapper--inner">
         <div class="page-footer__logo">
